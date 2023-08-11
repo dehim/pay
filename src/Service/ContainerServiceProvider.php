@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Yansongda\Pay\Service;
 
 use Closure;
+use Yii\di\Container as YiiContainer;
 use Hyperf\Context\ApplicationContext as HyperfContainer;
 use Hyperf\Pimple\ContainerFactory as DefaultContainer;
 use Illuminate\Container\Container as LaravelContainer;
@@ -21,6 +22,7 @@ use Yansongda\Pay\Pay;
 class ContainerServiceProvider implements ServiceProviderInterface
 {
     private array $detectApplication = [
+        'yii2' => YiiContainer::class,
         'laravel' => LaravelContainer::class,
         'hyperf' => HyperfContainer::class,
     ];
@@ -50,6 +52,31 @@ class ContainerServiceProvider implements ServiceProviderInterface
 
         $this->defaultApplication();
     }
+
+        /**
+     * @throws ContainerException
+     * @throws ContainerNotFoundException
+     */
+    protected function yii2Application(): bool
+    {
+        if (!class_exists($this->detectApplication['yii2'])) {
+            return false;
+        }
+    
+        $yiiContainer = \Yii::$container; // 获取 Yii2 的服务容器实例
+        $adapter = new Yii2ContainerAdapter($yiiContainer); // 使用刚刚创建的适配器
+    
+        Pay::setContainer(static fn() => $adapter);
+    
+        Pay::set(\Yansongda\Pay\Contract\ContainerInterface::class, $adapter);
+    
+        if (!Pay::has(ContainerInterface::class)) {
+            Pay::set(ContainerInterface::class, $adapter);
+        }
+    
+        return true;
+    }
+
 
     /**
      * @throws ContainerException
