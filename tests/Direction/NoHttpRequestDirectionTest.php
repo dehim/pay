@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Direction;
+namespace Dehim\Pay\Tests\Direction;
 
 use GuzzleHttp\Psr7\Response;
-use Yansongda\Pay\Packer\JsonPacker;
-use Yansongda\Pay\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Packer\JsonPacker;
+use Dehim\Pay\Direction\NoHttpRequestDirection;
+use Dehim\Pay\Tests\TestCase;
 
 class NoHttpRequestDirectionTest extends TestCase
 {

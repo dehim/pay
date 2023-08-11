@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Contract;
+namespace Dehim\Pay\Contract;
 
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
 use Yansongda\Supports\Collection;
 
 interface ProviderInterface

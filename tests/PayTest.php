@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Tests;
+namespace Dehim\Pay\Tests;
 
 use DI\Container;
 use DI\ContainerBuilder;
@@ -8,16 +8,16 @@ use GuzzleHttp\Client;
 use Monolog\Logger;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Contract\EventDispatcherInterface;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Contract\LoggerInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Provider\Alipay;
-use Yansongda\Pay\Tests\Stubs\FooServiceProviderStub;
+use Dehim\Pay\Contract\ConfigInterface;
+use Dehim\Pay\Contract\EventDispatcherInterface;
+use Dehim\Pay\Contract\HttpClientInterface;
+use Dehim\Pay\Contract\LoggerInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Provider\Alipay;
+use Dehim\Pay\Tests\Stubs\FooServiceProviderStub;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Pipeline;
 

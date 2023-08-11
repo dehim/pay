@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Direction;
+namespace Dehim\Pay\Direction;
 
 class ResponseDirection extends NoHttpRequestDirection
 {

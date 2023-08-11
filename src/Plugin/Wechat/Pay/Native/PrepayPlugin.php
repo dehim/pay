@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Pay\Native;
+namespace Dehim\Pay\Plugin\Wechat\Pay\Native;
 
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter3_4_1.shtml
  */
-class PrepayPlugin extends \Yansongda\Pay\Plugin\Wechat\Pay\Common\PrepayPlugin
+class PrepayPlugin extends \Dehim\Pay\Plugin\Wechat\Pay\Common\PrepayPlugin
 {
     protected function getUri(Rocket $rocket): string
     {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\User;
+namespace Dehim\Pay\Plugin\Alipay\User;
 
 use Closure;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Direction\ResponseDirection;
-use Yansongda\Pay\Logger;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Contract\PluginInterface;
+use Dehim\Pay\Direction\ResponseDirection;
+use Dehim\Pay\Logger;
+use Dehim\Pay\Rocket;
 
 /**
  * @see https://opendocs.alipay.com/open/02fkan?ref=api&scene=35

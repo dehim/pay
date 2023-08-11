@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat;
+namespace Dehim\Pay\Plugin\Wechat;
 
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Packer\XmlPacker;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Packer\XmlPacker;
+use Dehim\Pay\Rocket;
 
-use function Yansongda\Pay\get_wechat_config;
+use function Dehim\Pay\get_wechat_config;
 
 abstract class GeneralV2Plugin extends GeneralPlugin
 {

@@ -1,20 +1,20 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Pay\Common;
+namespace Dehim\Pay\Tests\Plugin\Wechat\Pay\Common;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\Pay\Common\RefundPlugin;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Wechat\Pay\Common\RefundPlugin;
+use Dehim\Pay\Provider\Wechat;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class RefundPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Wechat\Pay\Common\RefundPlugin
+     * @var \Dehim\Pay\Plugin\Wechat\Pay\Common\RefundPlugin
      */
     protected $plugin;
 

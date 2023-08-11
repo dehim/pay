@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\Shortcut;
+namespace Dehim\Pay\Tests\Plugin\Unipay\Shortcut;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Unipay\OnlineGateway\CancelPlugin;
-use Yansongda\Pay\Plugin\Unipay\Shortcut\CancelShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Plugin\Unipay\OnlineGateway\CancelPlugin;
+use Dehim\Pay\Plugin\Unipay\Shortcut\CancelShortcut;
+use Dehim\Pay\Tests\TestCase;
 
 class CancelShortcutTest extends TestCase
 {
@@ -31,7 +31,7 @@ class CancelShortcutTest extends TestCase
     public function testQrCode()
     {
         self::assertEquals([
-            \Yansongda\Pay\Plugin\Unipay\QrCode\CancelPlugin::class,
+            \Dehim\Pay\Plugin\Unipay\QrCode\CancelPlugin::class,
         ], $this->plugin->getPlugins(['_action' => 'qr_code']));
     }
 

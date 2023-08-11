@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Provider;
+namespace Dehim\Pay\Provider;
 
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Yansongda\Pay\Event;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Wechat\CallbackPlugin;
-use Yansongda\Pay\Plugin\Wechat\LaunchPlugin;
-use Yansongda\Pay\Plugin\Wechat\PreparePlugin;
-use Yansongda\Pay\Plugin\Wechat\RadarSignPlugin;
+use Dehim\Pay\Event;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\ParserPlugin;
+use Dehim\Pay\Plugin\Wechat\CallbackPlugin;
+use Dehim\Pay\Plugin\Wechat\LaunchPlugin;
+use Dehim\Pay\Plugin\Wechat\PreparePlugin;
+use Dehim\Pay\Plugin\Wechat\RadarSignPlugin;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Str;
 
@@ -53,7 +53,7 @@ class Wechat extends AbstractProvider
      */
     public function __call(string $shortcut, array $params): null|Collection|MessageInterface
     {
-        $plugin = '\\Yansongda\\Pay\\Plugin\\Wechat\\Shortcut\\'.
+        $plugin = '\\Dehim\\Pay\\Plugin\\Wechat\\Shortcut\\'.
             Str::studly($shortcut).'Shortcut';
 
         return $this->call($plugin, ...$params);

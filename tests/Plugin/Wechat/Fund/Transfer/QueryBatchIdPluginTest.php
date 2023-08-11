@@ -1,18 +1,18 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Fund\Transfer;
+namespace Dehim\Pay\Tests\Plugin\Wechat\Fund\Transfer;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Wechat\Fund\Transfer\QueryBatchIdPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Plugin\Wechat\Fund\Transfer\QueryBatchIdPlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class QueryBatchIdPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Wechat\Fund\Transfer\QueryBatchIdPlugin
+     * @var \Dehim\Pay\Plugin\Wechat\Fund\Transfer\QueryBatchIdPlugin
      */
     protected $plugin;
 

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Pay\Common;
+namespace Dehim\Pay\Plugin\Wechat\Pay\Common;
 
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Plugin\Wechat\GeneralPlugin;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Plugin\Wechat\GeneralPlugin;
+use Dehim\Pay\Rocket;
 
-use function Yansongda\Pay\get_wechat_config;
+use function Dehim\Pay\get_wechat_config;
 
 class CombinePrepayPlugin extends GeneralPlugin
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay;
+namespace Dehim\Pay\Tests\Plugin\Alipay;
 
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Alipay\PreparePlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Contract\ConfigInterface;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Alipay\PreparePlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Config;
 
 class PreparePluginTest extends TestCase

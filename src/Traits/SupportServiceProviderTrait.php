@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Traits;
+namespace Dehim\Pay\Traits;
 
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Rocket;
 
-use function Yansongda\Pay\get_alipay_config;
+use function Dehim\Pay\get_alipay_config;
 
 trait SupportServiceProviderTrait
 {

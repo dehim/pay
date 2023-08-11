@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\Shortcut;
+namespace Dehim\Pay\Tests\Plugin\Unipay\Shortcut;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Unipay\QrCode\PosNormalPlugin;
-use Yansongda\Pay\Plugin\Unipay\QrCode\PosPreAuthPlugin;
-use Yansongda\Pay\Plugin\Unipay\Shortcut\PosShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Plugin\Unipay\QrCode\PosNormalPlugin;
+use Dehim\Pay\Plugin\Unipay\QrCode\PosPreAuthPlugin;
+use Dehim\Pay\Plugin\Unipay\Shortcut\PosShortcut;
+use Dehim\Pay\Tests\TestCase;
 
 class PosShortcutTest extends TestCase
 {

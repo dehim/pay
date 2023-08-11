@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Stubs;
+namespace Dehim\Pay\Tests\Stubs;
 
 class FooPackerStub
 {

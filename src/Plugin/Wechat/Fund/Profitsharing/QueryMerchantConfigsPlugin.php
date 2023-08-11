@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Fund\Profitsharing;
+namespace Dehim\Pay\Plugin\Wechat\Fund\Profitsharing;
 
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\GeneralPlugin;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Wechat\GeneralPlugin;
+use Dehim\Pay\Rocket;
 
-use function Yansongda\Pay\get_wechat_config;
+use function Dehim\Pay\get_wechat_config;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3_partner/apis/chapter8_1_7.shtml

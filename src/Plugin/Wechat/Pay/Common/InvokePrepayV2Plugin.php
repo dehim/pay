@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Pay\Common;
+namespace Dehim\Pay\Plugin\Wechat\Pay\Common;
 
 use Exception;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Rocket;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Str;
 
-use function Yansongda\Pay\get_wechat_sign_v2;
+use function Dehim\Pay\get_wechat_sign_v2;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=7_7&index=6

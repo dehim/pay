@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Papay;
+namespace Dehim\Pay\Plugin\Wechat\Papay;
 
-use Yansongda\Pay\Plugin\Wechat\GeneralV2Plugin;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Plugin\Wechat\GeneralV2Plugin;
+use Dehim\Pay\Rocket;
 
 /**
  * 支付中签约.

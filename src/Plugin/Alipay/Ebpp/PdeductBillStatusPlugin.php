@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\Ebpp;
+namespace Dehim\Pay\Plugin\Alipay\Ebpp;
 
-use Yansongda\Pay\Plugin\Alipay\GeneralPlugin;
+use Dehim\Pay\Plugin\Alipay\GeneralPlugin;
 
 /**
  * @see https://opendocs.alipay.com/open/02hd36

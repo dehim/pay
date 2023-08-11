@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Packer;
+namespace Dehim\Pay\Tests\Packer;
 
-use Yansongda\Pay\Packer\QueryPacker;
+use Dehim\Pay\Packer\QueryPacker;
 
-class QueryPackerTest extends \Yansongda\Pay\Tests\TestCase
+class QueryPackerTest extends \Dehim\Pay\Tests\TestCase
 {
     protected QueryPacker $packer;
 

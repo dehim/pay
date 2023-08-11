@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Contract;
+namespace Dehim\Pay\Contract;
 
-use Yansongda\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ContainerException;
 
 interface ServiceProviderInterface
 {

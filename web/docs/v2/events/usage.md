@@ -7,8 +7,8 @@
 ```php
 <?php
 
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Events\PayStarting;
+use Dehim\Pay\Events;
+use Dehim\Pay\Events\PayStarting;
 
 // 1. 新建一个监听器
 class PayStartingListener

@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay;
+namespace Dehim\Pay\Plugin\Alipay;
 
 use Closure;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Exception\InvalidResponseException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Logger;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Contract\PluginInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Exception\InvalidResponseException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Logger;
+use Dehim\Pay\Rocket;
 use Yansongda\Supports\Collection;
 
-use function Yansongda\Pay\should_do_http_request;
-use function Yansongda\Pay\verify_alipay_sign;
+use function Dehim\Pay\should_do_http_request;
+use function Dehim\Pay\verify_alipay_sign;
 
 class LaunchPlugin implements PluginInterface
 {

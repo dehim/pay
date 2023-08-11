@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Direction;
+namespace Dehim\Pay\Tests\Direction;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidResponseException;
-use Yansongda\Pay\Packer\JsonPacker;
-use Yansongda\Pay\Direction\OriginResponseDirection;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidResponseException;
+use Dehim\Pay\Packer\JsonPacker;
+use Dehim\Pay\Direction\OriginResponseDirection;
+use Dehim\Pay\Tests\TestCase;
 
 class OriginResponseDirectionTest extends TestCase
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Service;
+namespace Dehim\Pay\Service;
 
-use Yansongda\Pay\Contract\ServiceProviderInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Provider\Wechat;
+use Dehim\Pay\Contract\ServiceProviderInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Provider\Wechat;
 
 class WechatServiceProvider implements ServiceProviderInterface
 {

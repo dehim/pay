@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Packer;
+namespace Dehim\Pay\Tests\Packer;
 
-use Yansongda\Pay\Packer\XmlPacker;
+use Dehim\Pay\Packer\XmlPacker;
 
-class XmlPackerTest extends \Yansongda\Pay\Tests\TestCase
+class XmlPackerTest extends \Dehim\Pay\Tests\TestCase
 {
     protected XmlPacker $packer;
 

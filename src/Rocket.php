@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay;
+namespace Dehim\Pay;
 
 use ArrayAccess;
 use JsonSerializable as JsonSerializableInterface;
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Pay\Contract\DirectionInterface;
-use Yansongda\Pay\Contract\PackerInterface;
+use Dehim\Pay\Contract\DirectionInterface;
+use Dehim\Pay\Contract\PackerInterface;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Traits\Accessable;
 use Yansongda\Supports\Traits\Arrayable;

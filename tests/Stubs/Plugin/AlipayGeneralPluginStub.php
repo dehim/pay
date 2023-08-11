@@ -1,8 +1,8 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Stubs\Plugin;
+namespace Dehim\Pay\Tests\Stubs\Plugin;
 
-use Yansongda\Pay\Plugin\Alipay\GeneralPlugin;
+use Dehim\Pay\Plugin\Alipay\GeneralPlugin;
 
 class AlipayGeneralPluginStub extends GeneralPlugin
 {

@@ -2,32 +2,32 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay;
+namespace Dehim\Pay;
 
 use Closure;
 use Illuminate\Container\Container as LaravelContainer;
 use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;
 use Throwable;
-use Yansongda\Pay\Contract\DirectionInterface;
-use Yansongda\Pay\Contract\PackerInterface;
-use Yansongda\Pay\Contract\ServiceProviderInterface;
-use Yansongda\Pay\Direction\CollectionDirection;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ContainerNotFoundException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Packer\JsonPacker;
-use Yansongda\Pay\Provider\Alipay;
-use Yansongda\Pay\Provider\Unipay;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Service\AlipayServiceProvider;
-use Yansongda\Pay\Service\ConfigServiceProvider;
-use Yansongda\Pay\Service\ContainerServiceProvider;
-use Yansongda\Pay\Service\EventServiceProvider;
-use Yansongda\Pay\Service\HttpServiceProvider;
-use Yansongda\Pay\Service\LoggerServiceProvider;
-use Yansongda\Pay\Service\UnipayServiceProvider;
-use Yansongda\Pay\Service\WechatServiceProvider;
+use Dehim\Pay\Contract\DirectionInterface;
+use Dehim\Pay\Contract\PackerInterface;
+use Dehim\Pay\Contract\ServiceProviderInterface;
+use Dehim\Pay\Direction\CollectionDirection;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ContainerNotFoundException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Packer\JsonPacker;
+use Dehim\Pay\Provider\Alipay;
+use Dehim\Pay\Provider\Unipay;
+use Dehim\Pay\Provider\Wechat;
+use Dehim\Pay\Service\AlipayServiceProvider;
+use Dehim\Pay\Service\ConfigServiceProvider;
+use Dehim\Pay\Service\ContainerServiceProvider;
+use Dehim\Pay\Service\EventServiceProvider;
+use Dehim\Pay\Service\HttpServiceProvider;
+use Dehim\Pay\Service\LoggerServiceProvider;
+use Dehim\Pay\Service\UnipayServiceProvider;
+use Dehim\Pay\Service\WechatServiceProvider;
 
 /**
  * @method static Alipay alipay(array $config = [], $container = null)

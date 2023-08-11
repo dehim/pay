@@ -6,4 +6,4 @@
 
 ## 异常
 
-Yansongda\Pay\Exceptions\InvalidParamsException
+Dehim\Pay\Exceptions\InvalidParamsException

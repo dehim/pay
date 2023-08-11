@@ -7,7 +7,7 @@
 ## 快速上手
 
 ```php
-use Yansongda\Pay\Pay;
+use Dehim\Pay\Pay;
 
 $config = [
     'app_id' => '2016082000295641',

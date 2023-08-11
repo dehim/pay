@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\Shortcut;
+namespace Dehim\Pay\Plugin\Alipay\Shortcut;
 
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Plugin\Alipay\Fund\TransUniTransferPlugin;
+use Dehim\Pay\Contract\ShortcutInterface;
+use Dehim\Pay\Plugin\Alipay\Fund\TransUniTransferPlugin;
 
 class TransferShortcut implements ShortcutInterface
 {

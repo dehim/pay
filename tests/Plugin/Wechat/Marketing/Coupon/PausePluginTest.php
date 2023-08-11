@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Marketing\Coupon;
+namespace Dehim\Pay\Tests\Plugin\Wechat\Marketing\Coupon;
 
 use GuzzleHttp\Psr7\Uri;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\Marketing\Coupon\PausePlugin;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Wechat\Marketing\Coupon\PausePlugin;
+use Dehim\Pay\Provider\Wechat;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class PausePluginTest extends TestCase

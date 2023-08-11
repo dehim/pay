@@ -1,18 +1,18 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay;
+namespace Dehim\Pay\Tests\Plugin\Unipay;
 
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Unipay\PreparePlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
-use function Yansongda\Pay\get_unipay_config;
+use Dehim\Pay\Contract\ConfigInterface;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Unipay\PreparePlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
+use function Dehim\Pay\get_unipay_config;
 
 class PreparePluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Unipay\PreparePlugin
+     * @var \Dehim\Pay\Plugin\Unipay\PreparePlugin
      */
     protected $plugin;
 

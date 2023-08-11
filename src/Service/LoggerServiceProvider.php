@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Service;
+namespace Dehim\Pay\Service;
 
 use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Contract\LoggerInterface;
-use Yansongda\Pay\Contract\ServiceProviderInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
+use Dehim\Pay\Contract\ConfigInterface;
+use Dehim\Pay\Contract\LoggerInterface;
+use Dehim\Pay\Contract\ServiceProviderInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Pay;
 
 class LoggerServiceProvider implements ServiceProviderInterface
 {

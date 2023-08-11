@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay;
+namespace Dehim\Pay\Plugin\Alipay;
 
 use Closure;
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Logger;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Contract\ConfigInterface;
+use Dehim\Pay\Contract\PluginInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Logger;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Rocket;
 
-use function Yansongda\Pay\get_alipay_config;
-use function Yansongda\Pay\get_public_cert;
-use function Yansongda\Pay\get_tenant;
+use function Dehim\Pay\get_alipay_config;
+use function Dehim\Pay\get_public_cert;
+use function Dehim\Pay\get_tenant;
 
 class PreparePlugin implements PluginInterface
 {

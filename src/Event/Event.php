@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Event;
+namespace Dehim\Pay\Event;
 
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Rocket;
 
 class Event
 {

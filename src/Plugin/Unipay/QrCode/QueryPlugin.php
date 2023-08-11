@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Unipay\QrCode;
+namespace Dehim\Pay\Plugin\Unipay\QrCode;
 
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Rocket;
 
-use function Yansongda\Pay\get_unipay_config;
+use function Dehim\Pay\get_unipay_config;
 
 /**
  * @see https://open.unionpay.com/tjweb/acproduct/APIList?acpAPIId=792&apiservId=468&version=V2.2&bussType=0
  */
-class QueryPlugin extends \Yansongda\Pay\Plugin\Unipay\OnlineGateway\QueryPlugin
+class QueryPlugin extends \Dehim\Pay\Plugin\Unipay\OnlineGateway\QueryPlugin
 {
     /**
      * @throws ContainerException

@@ -1,19 +1,19 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin;
+namespace Dehim\Pay\Tests\Plugin;
 
-use Yansongda\Pay\Contract\DirectionInterface;
-use Yansongda\Pay\Contract\PackerInterface;
-use Yansongda\Pay\Direction\CollectionDirection;
-use Yansongda\Pay\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Packer\JsonPacker;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\ParserPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\Stubs\FooPackerStub;
-use Yansongda\Pay\Tests\Stubs\FooParserStub;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Contract\DirectionInterface;
+use Dehim\Pay\Contract\PackerInterface;
+use Dehim\Pay\Direction\CollectionDirection;
+use Dehim\Pay\Direction\NoHttpRequestDirection;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Packer\JsonPacker;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\ParserPlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\Stubs\FooPackerStub;
+use Dehim\Pay\Tests\Stubs\FooParserStub;
+use Dehim\Pay\Tests\TestCase;
 
 class ParserPluginTest extends TestCase
 {

@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Pay\App;
+namespace Dehim\Pay\Plugin\Wechat\Pay\App;
 
 use Exception;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Rocket;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Str;
 
-use function Yansongda\Pay\get_wechat_config;
-use function Yansongda\Pay\get_wechat_sign;
+use function Dehim\Pay\get_wechat_config;
+use function Dehim\Pay\get_wechat_sign;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter3_2_4.shtml
  */
-class InvokePrepayPlugin extends \Yansongda\Pay\Plugin\Wechat\Pay\Common\InvokePrepayPlugin
+class InvokePrepayPlugin extends \Dehim\Pay\Plugin\Wechat\Pay\Common\InvokePrepayPlugin
 {
     /**
      * @throws ContainerException

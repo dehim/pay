@@ -1,22 +1,22 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Risk\Complaints;
+namespace Dehim\Pay\Tests\Plugin\Wechat\Risk\Complaints;
 
 use GuzzleHttp\Psr7\Uri;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Direction\OriginResponseDirection;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\Risk\Complaints\CompleteComplaintPlugin;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Direction\OriginResponseDirection;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Wechat\Risk\Complaints\CompleteComplaintPlugin;
+use Dehim\Pay\Provider\Wechat;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class CompleteComplaintPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Wechat\Risk\Complaints\CompleteComplaintPlugin
+     * @var \Dehim\Pay\Plugin\Wechat\Risk\Complaints\CompleteComplaintPlugin
      */
     protected $plugin;
 

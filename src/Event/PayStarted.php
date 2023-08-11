@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Event;
+namespace Dehim\Pay\Event;
 
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Contract\PluginInterface;
+use Dehim\Pay\Rocket;
 
 class PayStarted extends Event
 {

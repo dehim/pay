@@ -1,18 +1,18 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat;
+namespace Dehim\Pay\Tests\Plugin\Wechat;
 
 use GuzzleHttp\Psr7\Request;
 use ReflectionClass;
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Packer\JsonPacker;
-use Yansongda\Pay\Packer\XmlPacker;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\RadarSignPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Contract\ConfigInterface;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Packer\JsonPacker;
+use Dehim\Pay\Packer\XmlPacker;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Wechat\RadarSignPlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Str;
 

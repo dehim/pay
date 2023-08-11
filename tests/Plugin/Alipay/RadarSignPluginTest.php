@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay;
+namespace Dehim\Pay\Tests\Plugin\Alipay;
 
-use Yansongda\Pay\Plugin\Alipay\RadarSignPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Plugin\Alipay\RadarSignPlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class RadarSignPluginTest extends TestCase

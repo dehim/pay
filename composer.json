@@ -51,7 +51,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yansongda\\Pay\\": "src"
+            "Dehim\\Pay\\": "src"
         },
         "files": [
             "src/Functions.php"
@@ -59,7 +59,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Yansongda\\Pay\\Tests\\": "tests"
+            "Dehim\\Pay\\Tests\\": "tests"
         }
     },
     "suggest": {

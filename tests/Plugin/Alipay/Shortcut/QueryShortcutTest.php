@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\Shortcut;
+namespace Dehim\Pay\Tests\Plugin\Alipay\Shortcut;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Alipay\Fund\TransCommonQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\Shortcut\QueryShortcut;
-use Yansongda\Pay\Plugin\Alipay\Trade\FastRefundQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\Trade\QueryPlugin;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Plugin\Alipay\Fund\TransCommonQueryPlugin;
+use Dehim\Pay\Plugin\Alipay\Shortcut\QueryShortcut;
+use Dehim\Pay\Plugin\Alipay\Trade\FastRefundQueryPlugin;
+use Dehim\Pay\Plugin\Alipay\Trade\QueryPlugin;
+use Dehim\Pay\Tests\TestCase;
 
 class QueryShortcutTest extends TestCase
 {

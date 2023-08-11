@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Service;
+namespace Dehim\Pay\Service;
 
 use Psr\Container\ContainerInterface;
 use yii\di\Container as YiiContainer;
-use Yansongda\Pay\Exception\ContainerNotFoundException;
+use Dehim\Pay\Exception\ContainerNotFoundException;
 
 
 class Yii2ContainerAdapter implements ContainerInterface

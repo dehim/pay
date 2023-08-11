@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests;
+namespace Dehim\Pay\Tests;
 
 use Hyperf\Pimple\ContainerFactory;
 use Hyperf\Utils\ApplicationContext;
-use Yansongda\Pay\Pay;
+use Dehim\Pay\Pay;
 
 class TestCase extends \PHPUnit\Framework\TestCase
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Direction;
+namespace Dehim\Pay\Direction;
 
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Pay\Contract\DirectionInterface;
-use Yansongda\Pay\Contract\PackerInterface;
+use Dehim\Pay\Contract\DirectionInterface;
+use Dehim\Pay\Contract\PackerInterface;
 
 class NoHttpRequestDirection implements DirectionInterface
 {

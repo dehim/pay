@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Provider;
+namespace Dehim\Pay\Tests\Provider;
 
 use Closure;
 use GuzzleHttp\Client;
@@ -9,20 +9,20 @@ use GuzzleHttp\Psr7\Response;
 use Mockery;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Yansongda\Pay\Contract\DirectionInterface;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Contract\PackerInterface;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Direction\CollectionDirection;
-use Yansongda\Pay\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Packer\JsonPacker;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Provider\AbstractProvider;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Contract\DirectionInterface;
+use Dehim\Pay\Contract\HttpClientInterface;
+use Dehim\Pay\Contract\PackerInterface;
+use Dehim\Pay\Contract\PluginInterface;
+use Dehim\Pay\Contract\ShortcutInterface;
+use Dehim\Pay\Direction\CollectionDirection;
+use Dehim\Pay\Direction\NoHttpRequestDirection;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Packer\JsonPacker;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Provider\AbstractProvider;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class AbstractProviderTest extends TestCase

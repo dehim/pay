@@ -1,17 +1,17 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay;
+namespace Dehim\Pay\Tests\Plugin\Unipay;
 
-use Yansongda\Pay\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Plugin\Unipay\LaunchPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Direction\NoHttpRequestDirection;
+use Dehim\Pay\Plugin\Unipay\LaunchPlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class LaunchPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Unipay\LaunchPlugin
+     * @var \Dehim\Pay\Plugin\Unipay\LaunchPlugin
      */
     protected $plugin;
 

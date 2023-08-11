@@ -1,14 +1,14 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Direction;
+namespace Dehim\Pay\Tests\Direction;
 
 use GuzzleHttp\Psr7\Response;
-use Yansongda\Pay\Direction\CollectionDirection;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidResponseException;
-use Yansongda\Pay\Packer\JsonPacker;
-use Yansongda\Pay\Packer\QueryPacker;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Direction\CollectionDirection;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidResponseException;
+use Dehim\Pay\Packer\JsonPacker;
+use Dehim\Pay\Packer\QueryPacker;
+use Dehim\Pay\Tests\TestCase;
 
 class CollectionDirectionTest extends TestCase
 {

@@ -1,19 +1,19 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\QrCode;
+namespace Dehim\Pay\Tests\Plugin\Unipay\QrCode;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Unipay\QrCode\PosPreAuthPlugin;
-use Yansongda\Pay\Provider\Unipay;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Unipay\QrCode\PosPreAuthPlugin;
+use Dehim\Pay\Provider\Unipay;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 
 class PosPreAuthPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Unipay\QrCode\PosPreAuthPlugin
+     * @var \Dehim\Pay\Plugin\Unipay\QrCode\PosPreAuthPlugin
      */
     protected $plugin;
 

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay;
+namespace Dehim\Pay;
 
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Contract\LoggerInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Contract\ConfigInterface;
+use Dehim\Pay\Contract\LoggerInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
 
 /**
  * @method static void emergency($message, array $context = [])

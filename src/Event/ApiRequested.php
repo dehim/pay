@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Event;
+namespace Dehim\Pay\Event;
 
 class ApiRequested extends Event
 {

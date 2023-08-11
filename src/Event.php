@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay;
+namespace Dehim\Pay;
 
-use Yansongda\Pay\Contract\EventDispatcherInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Contract\EventDispatcherInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
 
 /**
  * @method static Event\Event dispatch(object $event)

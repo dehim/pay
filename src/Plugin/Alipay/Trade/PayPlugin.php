@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\Trade;
+namespace Dehim\Pay\Plugin\Alipay\Trade;
 
 use Closure;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Logger;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Traits\SupportServiceProviderTrait;
+use Dehim\Pay\Contract\PluginInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Logger;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Traits\SupportServiceProviderTrait;
 
 /**
  * @see https://opendocs.alipay.com/open/02fkat?ref=api&scene=common

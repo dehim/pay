@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay;
+namespace Dehim\Pay\Tests\Plugin\Unipay;
 
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Pay\Plugin\Unipay\HtmlResponsePlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Plugin\Unipay\HtmlResponsePlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class HtmlResponsePluginTest extends TestCase

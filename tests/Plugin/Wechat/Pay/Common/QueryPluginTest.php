@@ -1,17 +1,17 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Pay\Common;
+namespace Dehim\Pay\Tests\Plugin\Wechat\Pay\Common;
 
-use Yansongda\Pay\Plugin\Wechat\Pay\Common\QueryPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Plugin\Wechat\Pay\Common\QueryPlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
-use function Yansongda\Pay\get_wechat_config;
+use function Dehim\Pay\get_wechat_config;
 
 class QueryPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Wechat\Pay\Common\QueryPlugin
+     * @var \Dehim\Pay\Plugin\Wechat\Pay\Common\QueryPlugin
      */
     protected $plugin;
 

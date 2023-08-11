@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Pay\Mini;
+namespace Dehim\Pay\Plugin\Wechat\Pay\Mini;
 
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter3_5_1.shtml
  */
-class PrepayPlugin extends \Yansongda\Pay\Plugin\Wechat\Pay\Common\PrepayPlugin
+class PrepayPlugin extends \Dehim\Pay\Plugin\Wechat\Pay\Common\PrepayPlugin
 {
     protected function getWechatId(array $config, Rocket $rocket): array
     {

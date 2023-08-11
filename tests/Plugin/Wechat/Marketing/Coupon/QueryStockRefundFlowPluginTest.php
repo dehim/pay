@@ -1,15 +1,15 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Marketing\Coupon;
+namespace Dehim\Pay\Tests\Plugin\Wechat\Marketing\Coupon;
 
 use GuzzleHttp\Psr7\Uri;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\Marketing\Coupon\QueryStockRefundFlowPlugin;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Wechat\Marketing\Coupon\QueryStockRefundFlowPlugin;
+use Dehim\Pay\Provider\Wechat;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class QueryStockRefundFlowPluginTest extends TestCase

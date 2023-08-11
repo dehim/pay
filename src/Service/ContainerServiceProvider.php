@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Service;
+namespace Dehim\Pay\Service;
 
 use Closure;
 use Yii\di\Container as YiiContainer;
@@ -10,11 +10,11 @@ use Hyperf\Context\ApplicationContext as HyperfContainer;
 use Hyperf\Pimple\ContainerFactory as DefaultContainer;
 use Illuminate\Container\Container as LaravelContainer;
 use Psr\Container\ContainerInterface;
-use Yansongda\Pay\Contract\ServiceProviderInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ContainerNotFoundException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Pay;
+use Dehim\Pay\Contract\ServiceProviderInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\ContainerNotFoundException;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Pay;
 
 /**
  * @codeCoverageIgnore
@@ -68,7 +68,7 @@ class ContainerServiceProvider implements ServiceProviderInterface
     
         Pay::setContainer(static fn() => $adapter);
     
-        Pay::set(\Yansongda\Pay\Contract\ContainerInterface::class, $adapter);
+        Pay::set(\Dehim\Pay\Contract\ContainerInterface::class, $adapter);
     
         if (!Pay::has(ContainerInterface::class)) {
             Pay::set(ContainerInterface::class, $adapter);
@@ -86,7 +86,7 @@ class ContainerServiceProvider implements ServiceProviderInterface
     {
         Pay::setContainer(static fn () => LaravelContainer::getInstance());
 
-        Pay::set(\Yansongda\Pay\Contract\ContainerInterface::class, LaravelContainer::getInstance());
+        Pay::set(\Dehim\Pay\Contract\ContainerInterface::class, LaravelContainer::getInstance());
 
         if (!Pay::has(ContainerInterface::class)) {
             Pay::set(ContainerInterface::class, LaravelContainer::getInstance());
@@ -107,7 +107,7 @@ class ContainerServiceProvider implements ServiceProviderInterface
 
         Pay::setContainer(static fn () => HyperfContainer::getContainer());
 
-        Pay::set(\Yansongda\Pay\Contract\ContainerInterface::class, HyperfContainer::getContainer());
+        Pay::set(\Dehim\Pay\Contract\ContainerInterface::class, HyperfContainer::getContainer());
 
         if (!Pay::has(ContainerInterface::class)) {
             Pay::set(ContainerInterface::class, HyperfContainer::getContainer());

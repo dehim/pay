@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Unipay\QrCode;
+namespace Dehim\Pay\Plugin\Unipay\QrCode;
 
-use Yansongda\Pay\Plugin\Unipay\GeneralPlugin;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Plugin\Unipay\GeneralPlugin;
+use Dehim\Pay\Rocket;
 
 /**
  * @see https://open.unionpay.com/tjweb/acproduct/APIList?acpAPIId=796&apiservId=468&version=V2.2&bussType=0

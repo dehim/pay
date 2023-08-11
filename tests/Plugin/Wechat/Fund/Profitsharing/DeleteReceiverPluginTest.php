@@ -1,19 +1,19 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Fund\Profitsharing;
+namespace Dehim\Pay\Tests\Plugin\Wechat\Fund\Profitsharing;
 
 use GuzzleHttp\Psr7\Uri;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\Fund\Profitsharing\DeleteReceiverPlugin;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Wechat\Fund\Profitsharing\DeleteReceiverPlugin;
+use Dehim\Pay\Provider\Wechat;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class DeleteReceiverPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Wechat\Fund\Profitsharing\DeleteReceiverPlugin
+     * @var \Dehim\Pay\Plugin\Wechat\Fund\Profitsharing\DeleteReceiverPlugin
      */
     protected $plugin;
 

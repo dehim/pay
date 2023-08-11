@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Service;
+namespace Dehim\Pay\Service;
 
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Yansongda\Pay\Contract\EventDispatcherInterface;
-use Yansongda\Pay\Contract\ServiceProviderInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Pay;
+use Dehim\Pay\Contract\EventDispatcherInterface;
+use Dehim\Pay\Contract\ServiceProviderInterface;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Pay;
 
 class EventServiceProvider implements ServiceProviderInterface
 {

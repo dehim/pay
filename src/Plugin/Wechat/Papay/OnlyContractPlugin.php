@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Papay;
+namespace Dehim\Pay\Plugin\Wechat\Papay;
 
 use Closure;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Rocket;
+use Dehim\Pay\Contract\PluginInterface;
+use Dehim\Pay\Direction\NoHttpRequestDirection;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\InvalidConfigException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Rocket;
 
-use function Yansongda\Pay\get_wechat_config;
-use function Yansongda\Pay\get_wechat_sign_v2;
+use function Dehim\Pay\get_wechat_config;
+use function Dehim\Pay\get_wechat_sign_v2;
 
 /**
  * 返回只签约（委托代扣）参数.

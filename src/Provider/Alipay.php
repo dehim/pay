@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Provider;
+namespace Dehim\Pay\Provider;
 
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Yansongda\Pay\Event;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Alipay\CallbackPlugin;
-use Yansongda\Pay\Plugin\Alipay\LaunchPlugin;
-use Yansongda\Pay\Plugin\Alipay\PreparePlugin;
-use Yansongda\Pay\Plugin\Alipay\RadarSignPlugin;
-use Yansongda\Pay\Plugin\ParserPlugin;
+use Dehim\Pay\Event;
+use Dehim\Pay\Exception\ContainerException;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Exception\ServiceNotFoundException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\Alipay\CallbackPlugin;
+use Dehim\Pay\Plugin\Alipay\LaunchPlugin;
+use Dehim\Pay\Plugin\Alipay\PreparePlugin;
+use Dehim\Pay\Plugin\Alipay\RadarSignPlugin;
+use Dehim\Pay\Plugin\ParserPlugin;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Str;
 
@@ -46,7 +46,7 @@ class Alipay extends AbstractProvider
      */
     public function __call(string $shortcut, array $params): null|Collection|MessageInterface
     {
-        $plugin = '\\Yansongda\\Pay\\Plugin\\Alipay\\Shortcut\\'.
+        $plugin = '\\Dehim\\Pay\\Plugin\\Alipay\\Shortcut\\'.
             Str::studly($shortcut).'Shortcut';
 
         return $this->call($plugin, ...$params);

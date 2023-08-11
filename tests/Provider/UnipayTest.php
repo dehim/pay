@@ -1,22 +1,22 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Provider;
+namespace Dehim\Pay\Tests\Provider;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
 use Mockery;
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Unipay\LaunchPlugin;
-use Yansongda\Pay\Plugin\Unipay\PreparePlugin;
-use Yansongda\Pay\Plugin\Unipay\RadarSignPlugin;
-use Yansongda\Pay\Tests\Stubs\Plugin\FooPluginStub;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Contract\HttpClientInterface;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Pay;
+use Dehim\Pay\Plugin\ParserPlugin;
+use Dehim\Pay\Plugin\Unipay\LaunchPlugin;
+use Dehim\Pay\Plugin\Unipay\PreparePlugin;
+use Dehim\Pay\Plugin\Unipay\RadarSignPlugin;
+use Dehim\Pay\Tests\Stubs\Plugin\FooPluginStub;
+use Dehim\Pay\Tests\TestCase;
 
 class UnipayTest extends TestCase
 {

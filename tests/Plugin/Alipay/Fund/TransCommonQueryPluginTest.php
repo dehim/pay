@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\Fund;
+namespace Dehim\Pay\Tests\Plugin\Alipay\Fund;
 
-use Yansongda\Pay\Direction\ResponseDirection;
-use Yansongda\Pay\Plugin\Alipay\Fund\TransCommonQueryPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Dehim\Pay\Direction\ResponseDirection;
+use Dehim\Pay\Plugin\Alipay\Fund\TransCommonQueryPlugin;
+use Dehim\Pay\Rocket;
+use Dehim\Pay\Tests\TestCase;
 
 class TransCommonQueryPluginTest extends TestCase
 {

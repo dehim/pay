@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Unipay\Shortcut;
+namespace Dehim\Pay\Plugin\Unipay\Shortcut;
 
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Unipay\QrCode\ScanFeePlugin;
-use Yansongda\Pay\Plugin\Unipay\QrCode\ScanNormalPlugin;
-use Yansongda\Pay\Plugin\Unipay\QrCode\ScanPreAuthPlugin;
-use Yansongda\Pay\Plugin\Unipay\QrCode\ScanPreOrderPlugin;
+use Dehim\Pay\Contract\ShortcutInterface;
+use Dehim\Pay\Exception\Exception;
+use Dehim\Pay\Exception\InvalidParamsException;
+use Dehim\Pay\Plugin\Unipay\QrCode\ScanFeePlugin;
+use Dehim\Pay\Plugin\Unipay\QrCode\ScanNormalPlugin;
+use Dehim\Pay\Plugin\Unipay\QrCode\ScanPreAuthPlugin;
+use Dehim\Pay\Plugin\Unipay\QrCode\ScanPreOrderPlugin;
 use Yansongda\Supports\Str;
 
 class ScanShortcut implements ShortcutInterface
