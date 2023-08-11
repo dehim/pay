@@ -1,6 +1,6 @@
 {
-    "name": "yansongda/pay",
-    "description": "可能是我用过的最优雅的 Alipay 和 WeChat 的支付 SDK 扩展包了",
+    "name": "dehim/pay",
+    "description": "基于yansongda/pay，尝试支持Yii2框架",
     "keywords": ["alipay", "wechat", "pay"],
     "type": "library",
     "license": "MIT",
@@ -10,6 +10,10 @@
         "homepage": "https://pay.yansongda.cn"
     },
     "authors": [
+        {
+            "name": "dehim",
+            "email": "admin@dehim.com"
+        },
         {
             "name": "yansongda",
             "email": "me@yansongda.cn"
